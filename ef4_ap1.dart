@@ -36,13 +36,12 @@ class RotaInicial extends StatelessWidget {
   const RotaInicial();
 
   final cores = const [
-    ItensDaLista(Colors.red, "Vermelho"),
-    ItensDaLista(Colors.green, "Verde"),
-    ItensDaLista(Colors.blue, "Azul"),
+    ItensDaLista(Colors.white, "Branco"),
+    ItensDaLista(Colors.black, "Preto"),
+    ItensDaLista(Colors.brown, "Marrom"),
     ItensDaLista(Colors.purple, "Roxo"),
-    ItensDaLista(Colors.orange, "Laranja"),
+    ItensDaLista(Colors.red, "Vermelho"),
   ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
